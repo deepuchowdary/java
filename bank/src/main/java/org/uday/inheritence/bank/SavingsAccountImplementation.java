@@ -17,7 +17,7 @@ public class SavingsAccountImplementation implements Account{
 	AccountHelper helper = new AccountHelperImplementation();
 	
 	public double calculateInterest (double amount) {
-	// calculate interest for SavingsAccount
+	// calculating interest for SavingsAccount
 		return amount * 0.03;
 	}
 	
